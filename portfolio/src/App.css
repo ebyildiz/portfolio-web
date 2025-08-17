@@ -1,0 +1,144 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.header-title >h1 {
+  margin-bottom: 7px;
+  font-size: 1.9rem;
+  font-family: Inter, sans-serif;
+  color: #333;
+}
+
+.header-links {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  gap: 5px;
+  
+}
+
+.header-links > a {
+  color: rgb(123, 93, 233);
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+
+.header-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+
+.header >img {
+  width: 500px;
+  height: 400px;
+  place-self: center;
+  overflow: hidden;
+  object-fit: cover;
+  border-radius: 50px;
+}
+
+section.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  gap: 30px;
+}
+
+section.intro {
+  background-color: rgb(227, 239, 230);
+  padding: 2rem;
+  border-radius: 20px;
+}
+
+section.intro > p{
+  font-family: Inter;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 850px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+section.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+
+}
+
+section.projects > h1 {
+  display: flex;
+  align-items: left;
+  font-family: Inter;
+  font-size: 1.8rem;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.project-list {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  gap: 1.5rem;
+}
+section.project-item {
+  background-color: rgb(227, 239, 230);
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
+  width: 100%;
+  margin: 20px;
+}
+
+.multiple-images {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.quizzical-img {
+  height: 300px;
+  width: 320px;
+  overflow: hidden;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+img.regular-size {
+  height: 300px;
+  width: 500px;
+  border-radius: 20px;
+}
+
+img.meme-img {
+  height: 300px;
+  width: 300px;
+  border-radius: 20px;
+}
